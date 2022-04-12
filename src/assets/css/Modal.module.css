@@ -1,0 +1,69 @@
+.signinModal {
+  display: flex !;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  background: white;
+  text-align: center;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(37% - 15rem);
+  width: auto;
+}
+.rowStyling {
+  /* background:url(https://gomohealth.com/wp-content/uploads/2019/08/gradient-background-healthcare-technology-01.png); */
+  background-position: initial;
+  z-index: 20 !important;
+}
+.imageCol {
+  display: flex !important;
+}
+
+.imageStyling {
+  z-index: -1 !important;
+}
+
+.formCol {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  /* background: linear-gradient(to right,#2d76bb,#46a3b8); */
+  /* background: repeating-linear-gradient(-45deg,#2d76bb, #2d76bb 5px, #46a3b8 5px,#46a3b8 10px); */
+  background: conic-gradient(at 0% 50%, #5ad7f3 10%, #2d76bb 30%, #4fdbfa 50%);
+  /* background: url(https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_960_720.jpg) !important; */
+  /* background: url(https://i.pinimg.com/originals/d4/55/e3/d455e3be112235e6f70ce41be9ffd6d2.gif); */
+  background-position: center;
+}
+.formLabel {
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left !important;
+}
+
+.textmuted {
+  color: white;
+  margin-top: 20px;
+}
+
+.btn1 {
+  color: white !important;
+  background-color: tomato;
+}
+
+/* signUp styling */
+.signupModal {
+  display: flex !;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  background: white;
+  text-align: center;
+  z-index: 10;
+  top: 10vh;
+  position: fixed;
+  left: calc(37% - 15rem);
+  width: auto;
+  height: auto;
+}

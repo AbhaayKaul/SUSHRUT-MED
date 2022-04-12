@@ -1,0 +1,108 @@
+.navBar {
+  background: #2193b0;
+  background: -webkit-linear-gradient(to right, #46a3b8, #2d76bb);
+  background: linear-gradient(to right, #46a3b8, #2d76bb);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Header Image  */
+.header-img {
+  position: absolute !important;
+  height: 30rem;
+  width: 47rem;
+  top: 20%;
+}
+
+.header-background {
+  /* position: absolute; */
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background: #2193b0;
+  background: -webkit-linear-gradient(to right, #46a3b8, #2d76bb);
+  background: linear-gradient(to right, #46a3b8, #2d76bb);
+}
+
+.active .navbar-title {
+  color: #15357a !important;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0;
+}
+
+.active .navbar-items a.nav-link {
+  color: #15357a !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Header Gif */
+.header-gif {
+  position: absolute;
+  top: 19%;
+  right: 8%;
+  width: 35%;
+  height: 73%;
+  border-radius: 50%;
+}
+
+/*Header Title & Info*/
+.header-title {
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  width: 31%;
+  left: 4%;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.header-info {
+  position: absolute;
+  top: 60%;
+  width: 31%;
+  left: 4%;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Header button  */
+.header-btn {
+  position: absolute;
+  top: 70%;
+  left: 4%;
+  padding: 21px 34px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navbar Brand Name and Image */
+.navbar-title span {
+  position: relative;
+  right: 4px;
+  color: #15357a;
+}
+
+.navbar-title .brand-logo {
+  height: 78px;
+  position: relative;
+  padding-bottom: 21px;
+}
+/* navbar login signup buttons */
+.btn {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.active .navbar-items .btn {
+  color: #113177;
+  font-size: 20px;
+  font-weight: 600;
+}

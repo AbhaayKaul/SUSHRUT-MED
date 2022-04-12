@@ -1,0 +1,35 @@
+.features {
+  background: #2193b0;
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+/* Info Section headings */
+.info-headings {
+  color: white;
+  position: relative;
+  top: 30%;
+  /* left: 6%; */
+}
+
+/* Info Section Images and text */
+.info-img {
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.info-cards h5 {
+  margin: 20px;
+  font-weight: 500;
+}
+
+/* Info of patients and Doctors */
+.info-doctor {
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+/* .
+.info-patients {
+
+} */

@@ -1,0 +1,9 @@
+.service {
+  background-image: url('../images/service-bg.png');
+  content: '';
+  z-index: -1;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+}

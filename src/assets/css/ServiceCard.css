@@ -1,0 +1,12 @@
+/* Service Card  */
+.card {
+  box-shadow: 10px 40px 50px rgb(229 233 246 / 40%);
+  border-radius: 1rem;
+  border: none;
+}
+
+.card-body {
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+  color: #7d7986;
+}
